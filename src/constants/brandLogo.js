@@ -1,12 +1,52 @@
 export const brandLogo = [
     {
-        id: 1,
-        src: "/assets/logo/Adidas.png",
+        id: 29,
+        src: "/assets/logo/Zara.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 12,
+        src: "/assets/logo/H&M.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 27,
+        src: "/assets/logo/Uniqlo.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 19,
+        src: "/assets/logo/Myntra.webp",
         href: "https://www.adidas.co.in/"
     },
     {
         id: 2,
         src: "/assets/logo/Amazon.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 20,
+        src: "/assets/logo/Nike.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 22,
+        src: "/assets/logo/Puma.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 1,
+        src: "/assets/logo/Adidas.png",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 28,
+        src: "/assets/logo/VegNonVeg.svg",
+        href: "https://www.adidas.co.in/"
+    },
+    {
+        id: 21,
+        src: "/assets/logo/Nykaa.png",
         href: "https://www.adidas.co.in/"
     },
     {
@@ -55,11 +95,6 @@ export const brandLogo = [
         href: "https://www.adidas.co.in/"
     },
     {
-        id: 12,
-        src: "/assets/logo/H&M.png",
-        href: "https://www.adidas.co.in/"
-    },
-    {
         id: 13,
         src: "/assets/logo/Levis.avif",
         href: "https://www.adidas.co.in/"
@@ -90,26 +125,6 @@ export const brandLogo = [
         href: "https://www.adidas.co.in/"
     },
     {
-        id: 19,
-        src: "/assets/logo/Myntra.webp",
-        href: "https://www.adidas.co.in/"
-    },
-    {
-        id: 20,
-        src: "/assets/logo/Nike.png",
-        href: "https://www.adidas.co.in/"
-    },
-    {
-        id: 21,
-        src: "/assets/logo/Nykaa.png",
-        href: "https://www.adidas.co.in/"
-    },
-    {
-        id: 22,
-        src: "/assets/logo/Puma.png",
-        href: "https://www.adidas.co.in/"
-    },
-    {
         id: 23,
         src: "/assets/logo/Ringke.avif",
         href: "https://www.adidas.co.in/"
@@ -129,19 +144,5 @@ export const brandLogo = [
         src: "/assets/logo/The_loom.png",
         href: "https://www.adidas.co.in/"
     },
-    {
-        id: 27,
-        src: "/assets/logo/Uniqlo.png",
-        href: "https://www.adidas.co.in/"
-    },
-    {
-        id: 28,
-        src: "/assets/logo/VegNonVeg.svg",
-        href: "https://www.adidas.co.in/"
-    },
-    {
-        id: 29,
-        src: "/assets/logo/Zara.png",
-        href: "https://www.adidas.co.in/"
-    }
+    
 ]
