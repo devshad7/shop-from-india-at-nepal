@@ -11,8 +11,8 @@ const About = () => {
                         <p className="md:text-lg text-base"><strong>Buy From India at Nepal</strong> is a trusted service that bridges the gap between Nepalese
                             shoppers and the vast selection of products available on Indian e-commerce platforms.
                             Established over four years ago, we have been dedicated to helping customers in Nepal easily access
-                            and purchase items from popular Indian websites. Whether it's the latest fashion trends, electronic gadgets, or any
-                            other product that catches your eye, simply choose your desired item, and we'll handle the rest. Our hassle-free
+                            and purchase items from popular Indian websites. Whether it&apos;s the latest fashion trends, electronic gadgets, or any
+                            other product that catches your eye, simply choose your desired item, and we&apos;ll handle the rest. Our hassle-free
                             service ensures that your orders are placed and delivered straight to your doorstep in Nepal, saving you time
                             and effort. Experience seamless shopping with us, and enjoy the convenience of getting your favorite products from
                             India without any of the usual cross-border challenges.</p>
