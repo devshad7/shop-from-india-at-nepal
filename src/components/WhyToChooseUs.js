@@ -12,7 +12,7 @@ const WhyToChooseUs = () => {
                                 <Globe className='size-5' />
                             </div>
                             <h2 className="font-semibold text-gray-700 text-lg">Fast and Relaible Sevice</h2>
-                            <p className="text-sm">We deliver your product quickly, without <br /> compromising on quality</p>
+                            <p className="text-sm">We deliver your product quickly <br /> within 7-10 days</p>
                         </div>
                         <div className="flex flex-col items-center gap-4">
                             <div className="bg-[#c2ecfa] flex justify-center items-center size-10 rounded-full">
@@ -26,7 +26,7 @@ const WhyToChooseUs = () => {
                                 <Headset className='size-5' />
                             </div>
                             <h2 className="font-semibold text-gray-700 text-lg">Easy Customer Support</h2>
-                            <p className="text-sm">Our support team is here for you timing 07:00AM to 10:30PM</p>
+                            <p className="text-sm">Our support team is here for you timing 07:00AM to 10:30PM <br />+977 981295031</p>
                         </div>
                     </div>
                 </div>

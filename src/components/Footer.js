@@ -29,9 +29,6 @@ const Footer = () => {
                 <div className="flex flex-col justify-center items-center gap-2 text-[#64748B] text-sm pt-2">
                     <span>© 2024 Buy From India at Nepal. All rights reserved.</span>
                     <div className="flex gap-3 text-[#71717A]">
-                        <a href="" className="hover:text-[#1DA1F2]">
-                            <Twitter className="size-5" />
-                        </a>
                         <a href="" className="hover:text-[#1877F2]">
                             <Facebook className="size-5" />
                         </a>

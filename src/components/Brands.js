@@ -15,9 +15,9 @@ const Brands = () => {
                             return (
                                 <Link href={logo.href} key={logo.id}>
                                     <div className="h-[230px] md:w-[255px] w-[340px] shadow-lg flex md:px-4 justify-center items-center rounded-md flex-col">
-                                        <img src={logo.src} alt="" className="h-10 w-auto" />
+                                        <img src={logo.src} alt="" className="h-12 w-auto" />
                                         <div className="absolute mt-24">
-                                            <Button variant="outline" className="flex gap-1 px-3 h-7" size='sm'>
+                                            <Button className="flex gap-1 px-5 h-7 bg-[#F07431]" size='sm'>
                                                 Visit
                                                 <ArrowRight className='size-4' />
                                             </Button>

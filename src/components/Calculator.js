@@ -6,9 +6,9 @@ const Calculator = () => {
     <div className="h-[85vh] w-[100%] flex justify-center items-center">
         <div>
             <div className="flex gap-1">
-                <strong>500</strong>
+                <strong>401</strong>
                 <p>|</p>
-                <p>Something went wrong...</p>
+                <p>Coming Soon</p>
             </div>
         </div>
     </div>
