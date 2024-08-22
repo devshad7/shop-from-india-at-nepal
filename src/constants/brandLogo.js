@@ -26,7 +26,7 @@ export const brandLogo = [
     },
     {
         id: 6,
-        src: "/assets/logo/Croma.svg",
+        src: "/assets/logo/Croma.png",
         href: "https://www.adidas.co.in/"
     },
     {
