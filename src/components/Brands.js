@@ -27,7 +27,7 @@ const Brands = () => {
                             )
                         })}
                         <div className="md:h-[230px] md:w-[255px] h-44 w-48 md:shadow-lg shadow-md flex md:px-4 px-3 justify-center items-center rounded-md flex-col">
-                            <h2 className='text-sm px-3 md:px-5 font-semibold'>Also, you can choose from a vast collection of other brands for your next purchase.</h2>
+                            <h2 className='text-sm px-3 md:px-5 font-semibold'>Also, you can choose any brand website from India region.</h2>
                         </div>
                     </div>
                 </div>
