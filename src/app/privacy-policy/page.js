@@ -1,16 +1,15 @@
-import Calculator from '@/components/Calculator'
 import Navbar from '@/components/Navbar'
-import React from 'react'
+import PrivacyPolicy from '@/components/PrivacyPolicy';
 
 export const metadata = {
-  title: "Price Calculator | Buy From India At Nepal"
+  title: "Privacy Policy | Buy From India At Nepal"
 };
 
 function page() {
   return (
     <>
     <Navbar />
-    <Calculator />
+    <PrivacyPolicy />
     </>
   )
 }

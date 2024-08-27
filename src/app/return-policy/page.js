@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import React from 'react'
 
 export const metadata = {
-  title: "Price Calculator | Buy From India At Nepal"
+  title: "Return Policy | Buy From India At Nepal"
 };
 
 function page() {
