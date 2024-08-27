@@ -20,7 +20,7 @@ const PrivacyPolicy = () => {
                     <li>Payment information</li>
                 </ul>
                 <h2 className="text-xl font-semibold">Usage Data:</h2>
-                <p>We may also collect information on how the Website is accessed and used. This Usage Data may include information such as your computer's IP address, browser type, browser version, the pages of our Website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.</p>
+                <p>We may also collect information on how the Website is accessed and used. This Usage Data may include information such as your computer&apos;s IP address, browser type, browser version, the pages of our Website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.</p>
                 <h2 className="text-xl font-semibold">How We Use Your Information</h2>
                 <p>We use the information we collect in the following ways:</p>
                 <ul className='list-disc ml-4'>
