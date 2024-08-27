@@ -71,3 +71,9 @@
 .highlight {
   background: linear-gradient(to bottom, transparent 50%, #c2ecfa 50%);
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}

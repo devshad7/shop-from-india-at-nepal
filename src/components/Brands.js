@@ -10,11 +10,11 @@ const Brands = () => {
             <div className="px-4 md:px-14">
                 <div className="py-16 gap-10 flex flex-col text-center">
                     <h1 className="text-2xl uppercase font-semibold text-gray-700"><span className="highlight">Brands We are accepting orders</span></h1>
-                    <div className="flex justify-center items-center flex-wrap gap-4">
+                    <div className="md:flex md:justify-center md:items-center md:flex-wrap md:gap-4 cards">
                         {brandLogo.map((logo) => {
                             return (
                                 <Link href={logo.href} key={logo.id}>
-                                    <div className="h-[230px] md:w-[255px] w-[340px] shadow-lg flex md:px-4 justify-center items-center rounded-md flex-col">
+                                    <div className="md:h-[230px] md:w-[255px] h-44 w-48 md:shadow-lg shadow-md flex md:px-4 px-3 justify-center items-center rounded-md flex-col">
                                         <img src={logo.src} alt="" className="h-12 w-auto" />
                                         <div className="absolute mt-24">
                                             <Button className="flex gap-1 px-5 h-7 bg-[#F07431]" size='sm'>
@@ -26,6 +26,9 @@ const Brands = () => {
                                 </Link>
                             )
                         })}
+                        <div className="md:h-[230px] md:w-[255px] h-44 w-48 md:shadow-lg shadow-md flex md:px-4 px-3 justify-center items-center rounded-md flex-col">
+                            <h2>And many more of yours wish</h2>
+                        </div>
                     </div>
                 </div>
             </div>
