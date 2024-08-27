@@ -2,7 +2,7 @@ import React from 'react'
 
 const HowToOrder = () => {
     return (
-        <div className="px-4 md:px-14">
+        <div className="px-4 md:px-14" id="how-to-order">
             <div className="text-center">
             <h1 className="text-2xl uppercase font-semibold text-gray-700"><span className="highlight">How to order</span></h1>
                 <div className="flex flex-col md:flex-row py-16 pb-12 md:gap-20 gap-5 md:px-28 justify-center items-center">

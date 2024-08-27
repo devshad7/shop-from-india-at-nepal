@@ -3,7 +3,7 @@ import { Globe, Tag, Headset } from 'lucide-react'
 const WhyToChooseUs = () => {
     return (
         <>
-            <div className="px-4 md:px-14">
+            <div className="px-4 md:px-14" id="why-to-choose-use">
                 <div className="py-16 pb-24 text-center flex flex-col justify-center items-center">
                     <h1 className="text-2xl uppercase font-semibold text-gray-700"><span className="highlight">Why To Choose Us</span></h1>
                     <div className="flex flex-col md:flex-row md:gap-36 gap-20 pt-20">

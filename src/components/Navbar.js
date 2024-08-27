@@ -37,7 +37,7 @@ const Navbar = () => {
                     <SheetContent side="left">
                         <nav className="grid gap-6 text-lg font-medium">
                             <Link
-                                href="#"
+                                href="/"
                                 className="flex items-center gap-2 text-lg font-semibold"
                             >
                                 <img src='/assets/logo.jpeg' className="h-7 w-7" />
@@ -49,24 +49,24 @@ const Navbar = () => {
                                 Home
                             </Link>
                             <Link
-                                href=""
+                                href="#about"
                                 className="text-muted-foreground hover:text-foreground"
                             >
                                 About
                             </Link>
                             <Link
-                                href=""
+                                href="#how-to-order"
                                 className="text-muted-foreground hover:text-foreground"
                             >
                                 How to Order
                             </Link>
                             <Link
-                                href=""
+                                href="#why-to-choose-use"
                                 className="text-muted-foreground hover:text-foreground"
                             >
                                 Why To Choose Us
                             </Link>
-                            <Link href="" className="hover:text-foreground">
+                            <Link href="/contact" className="hover:text-foreground">
                                 Contact Us
                             </Link>
                         </nav>

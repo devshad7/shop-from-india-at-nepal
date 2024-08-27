@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Brands from "@/components/Brands";
+import FAQs from "@/components/FAQs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowToOrder from "@/components/HowToOrder";
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <HowToOrder />
       <WhyToChooseUs />
+      <FAQs />
       <Footer />
     </>
   );

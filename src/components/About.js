@@ -6,7 +6,7 @@ const About = () => {
             <div className="py-16 text-center">
             <h1 className="text-2xl uppercase font-semibold text-gray-700"><span className="highlight">About Us</span></h1>
                 <div className="flex flex-col md:flex-row py-16 md:px-28 px-4 md:gap-40 gap-7 justify-center">
-                    <img src="/assets/logo.jpeg" alt="" className="h-80 w-auto" />
+                    <img src="/assets/logo.jpeg" alt="" className="h-80 w-auto rounded-md" />
                     <div className="text-left">
                         <p className="md:text-lg text-base"><strong>Buy From India at Nepal</strong> is a trusted service that bridges the gap between Nepalese
                             shoppers and the vast selection of products available on Indian e-commerce platforms.

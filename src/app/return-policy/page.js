@@ -1,5 +1,6 @@
 import Calculator from '@/components/Calculator'
 import Navbar from '@/components/Navbar'
+import ReturnPolicy from '@/components/ReturnPolicy';
 import React from 'react'
 
 export const metadata = {
@@ -10,7 +11,7 @@ function page() {
   return (
     <>
     <Navbar />
-    <Calculator />
+    <ReturnPolicy />
     </>
   )
 }
