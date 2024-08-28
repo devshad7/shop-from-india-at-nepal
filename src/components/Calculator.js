@@ -22,13 +22,16 @@ const Calculator = () => {
 
     // Calculate the additional cost based on weight
     let additionalCost = Math.ceil(numericWeight / 1000) * 200;
+    let percentage = numericPrice / 100 * 25;
 
     if (numericPrice < 1500) {
-      numericPrice = numericPrice + numericPrice * 0.25 * 1.65 + 100;
+      const mainCalc = numericPrice + percentage + 100;
+      numericPrice = mainCalc * 1.65;
       setIsHidden("block")
 
     } else {
-      numericPrice = numericPrice + numericPrice * 0.25 * 1.65;
+      const mainCalc = numericPrice + percentage;
+      numericPrice = mainCalc * 1.65;
     }
 
     // Add the additional cost based on weight
@@ -49,7 +52,7 @@ const Calculator = () => {
             </div>
             <div className={isHidden}>
               <div className="bg-green-100 px-5 py-3">
-                <p><strong>Total Price: </strong>{result + " " + "NP"}</p>
+                <p><strong>Total Price: </strong>{result + " " + "NPR"}</p>
               </div>
             </div>
             <Button onClick={handleCalculate}>Calculate</Button>
