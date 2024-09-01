@@ -47,7 +47,7 @@ const Calculator = () => {
         <div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-3">
-              <Input type="number" placeholder="Enter price in INR" value={price} onChange={(e) => setPrice(e.target.value)} />
+              <Input type="number" placeholder="Enter product price in INR" value={price} onChange={(e) => setPrice(e.target.value)} />
               <Input type="number" placeholder="Enter product weight in gram" className="md:w-60 w-72" value={weight} onChange={(e) => setWeight(e.target.value)} />
             </div>
             <div className={isHidden}>
