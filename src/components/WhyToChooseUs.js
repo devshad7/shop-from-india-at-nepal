@@ -26,7 +26,7 @@ const WhyToChooseUs = () => {
                                 <Headset className='size-5' />
                             </div>
                             <h2 className="font-semibold text-gray-700 text-lg">Easy Customer Support</h2>
-                            <p className="text-sm">Our support team is here for you timing <br /> 07:00AM to 10:30PM <br />+977 981295031</p>
+                            <p className="text-sm">Our support team is here for you timing <br /> 07:00AM to 10:30PM <br />+977 9812950301</p>
                         </div>
                     </div>
                 </div>
