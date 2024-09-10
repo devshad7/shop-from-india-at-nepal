@@ -11,13 +11,15 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Brands />
-      <About />
-      <HowToOrder />
-      <WhyToChooseUs />
-      <FAQs />
-      <Footer />
+      <div className="relative top-16">
+        <Hero />
+        <Brands />
+        <About />
+        <HowToOrder />
+        <WhyToChooseUs />
+        <FAQs />
+        <Footer />
+      </div>
     </>
   );
 }

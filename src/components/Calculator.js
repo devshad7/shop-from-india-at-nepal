@@ -43,7 +43,7 @@ const Calculator = () => {
 
   return (
     <>
-      <div className="h-[70vh] md:h-[85vh] w-[100%] flex justify-center items-center">
+      <div className="h-[88vh] md:h-[100vh] w-[100%] flex justify-center items-center">
         <div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-3">
