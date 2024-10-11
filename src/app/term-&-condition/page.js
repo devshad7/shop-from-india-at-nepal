@@ -1,5 +1,5 @@
-import Calculator from '@/components/Calculator'
 import Navbar from '@/components/Navbar'
+import TermAndConditions from '@/components/TermAndConditions';
 import React from 'react'
 
 export const metadata = {
@@ -9,8 +9,10 @@ export const metadata = {
 function page() {
   return (
     <>
-    <Navbar />
-    <Calculator />
+      <Navbar />
+      <div className="relative top-16">
+        <TermAndConditions />
+      </div>
     </>
   )
 }
