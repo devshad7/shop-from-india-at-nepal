@@ -52,6 +52,9 @@ const Calculator = () => {
             </div>
             <div className={isHidden}>
               <div className="bg-green-100 px-5 py-3">
+                {/* <p>Product price: 1500 NPR</p>
+                <p>Import + Service charge: 375 NPR</p>
+                <hr /> */}
                 <p><strong>Total Price: </strong>{result + " " + "NPR"}</p>
               </div>
             </div>

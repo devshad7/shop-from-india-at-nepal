@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Analytics />
-        <Script src="//pl24750017.cpmrevenuegate.com/4b/e4/b8/4be4b895f1c4fe32e1e2896dbe3e0b85.js" strategy="lazyOnload" />
+        {/* <Script src="//pl24750017.cpmrevenuegate.com/4b/e4/b8/4be4b895f1c4fe32e1e2896dbe3e0b85.js" strategy="lazyOnload" /> */}
       </body>
     </html>
   );
