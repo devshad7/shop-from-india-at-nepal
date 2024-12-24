@@ -13,10 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         {children}
         <Analytics />
-        {/* <Script src="//pl24750017.cpmrevenuegate.com/4b/e4/b8/4be4b895f1c4fe32e1e2896dbe3e0b85.js" strategy="lazyOnload" /> */}
       </body>
     </html>
   );
