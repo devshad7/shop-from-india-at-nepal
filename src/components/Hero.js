@@ -13,9 +13,6 @@ const Hero = () => {
                             <CarouselItem>
                                 <img src="./assets/banner.jpeg" alt="" className='object-cover md:h-auto h-full w-full rounded-md' />
                             </CarouselItem>
-                            <CarouselItem>
-                                <img src="./assets/banner.gif" alt="" className='object-cover md:h-auto h-full w-full rounded-md' />
-                            </CarouselItem>
                         </CarouselContent>
                     </Carousel>
                 </div>
