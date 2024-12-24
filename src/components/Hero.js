@@ -11,7 +11,10 @@ const Hero = () => {
                     <Carousel plugins={[Autoplay({ delay: 5000, })]}>
                         <CarouselContent>
                             <CarouselItem>
-                                <img src="./assets/banner.jpeg" alt="" className='object-cover md:h-auto h-full w-full rounded-md' />
+                                <img src="./assets/banner.jpeg" alt="banner_1" className='object-cover md:h-auto h-full w-full rounded-md' />
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src="./assets/banner2.jpg" alt="banner_2" className='object-cover md:h-auto h-full w-full rounded-md' />
                             </CarouselItem>
                         </CarouselContent>
                     </Carousel>
