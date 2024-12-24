@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowToOrder from "@/components/HowToOrder";
 import Navbar from "@/components/Navbar";
+import Review from "@/components/Review";
 import WhyToChooseUs from "@/components/WhyToChooseUs";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <HowToOrder />
         <WhyToChooseUs />
+        <Review />
         <FAQs />
         <Footer />
       </div>
