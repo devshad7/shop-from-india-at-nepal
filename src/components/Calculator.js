@@ -13,13 +13,15 @@ const Calculator = () => {
   const [isHidden, setIsHidden] = useState("hidden")
   const [productPrice, setProductPrice] = useState(null)
   const [charge, setCharge] = useState(null)
-  const [DeliveryCharge, setDeliveryCharge] = useState('200')
+  const [DeliveryCharge, setDeliveryCharge] = useState(200)
 
   const handleCalculate = () => {
     let numericPrice = parseFloat(price);
     let numericWeight = parseFloat(weight);
 
-    setProductPrice(numericPrice * 1.65);
+    // product price
+    let prodPrice = numericPrice * 1.65;
+    setProductPrice(prodPrice.toFixed(0));
 
     if (isNaN(numericPrice) || isNaN(numericWeight)) {
       alert('Please enter valid numbers for price and weight.');
@@ -30,7 +32,9 @@ const Calculator = () => {
     let additionalCost = Math.ceil(numericWeight / 1000) * 200;
     let percentage = numericPrice / 100 * 25;
 
-    setCharge(percentage + additionalCost * 1.65)
+    // charges
+    let charges = percentage + additionalCost * 1.65;
+    setCharge(charges.toFixed(0))
 
     if (numericPrice < 1500) {
       const mainCalc = numericPrice + percentage + 100;
@@ -43,7 +47,7 @@ const Calculator = () => {
     }
 
     // Add the additional cost based on weight
-    const finalPrice = numericPrice + additionalCost;
+    const finalPrice = prodPrice + charges + DeliveryCharge;
     setResult(finalPrice.toFixed(0));
     setIsHidden("block")
 
