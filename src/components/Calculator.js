@@ -37,19 +37,29 @@ const Calculator = () => {
     // charges
     setCharge(finalPercentage.toFixed(0))
 
-    if (numericPrice < 1500) {
-      const mainCalc = numericPrice + percentage + 100;
-      numericPrice = mainCalc * 1.65;
-      setIsHidden("block")
+    // if (numericPrice < 1500) {
+    //   const mainCalc = numericPrice + percentage + 100;
+    //   numericPrice = mainCalc * 1.65;
+    //   setIsHidden("block")
 
-    } else {
-      const mainCalc = numericPrice + percentage;
-      numericPrice = mainCalc * 1.65;
-    }
+    // } else {
+    //   const mainCalc = numericPrice + percentage;
+    //   numericPrice = mainCalc * 1.65;
+    // }
 
     // Add the additional cost based on weight
-    const finalPrice = prodPrice + finalPercentage + additionalCost;
-    setResult(finalPrice.toFixed(0));
+    
+    if (numericPrice < 1500) {
+      const finalPrice = prodPrice + finalPercentage + additionalCost;
+      const addP = finalPrice + 165;
+      const finalCharge = finalPercentage + 165;
+      setCharge(finalCharge.toFixed(0))
+      setResult(addP.toFixed(0))
+    } else {
+      const finalPrice = prodPrice + finalPercentage + additionalCost;
+      setResult(finalPrice.toFixed(0))
+    }
+    // setResult(finalPrice.toFixed(0));
     setIsHidden("block")
 
   };
