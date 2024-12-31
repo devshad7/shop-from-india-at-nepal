@@ -13,7 +13,7 @@ const Calculator = () => {
   const [isHidden, setIsHidden] = useState("hidden")
   const [productPrice, setProductPrice] = useState(null)
   const [charge, setCharge] = useState(null)
-  const [DeliveryCharge, setDeliveryCharge] = useState(200)
+  const [DeliveryCharge, setDeliveryCharge] = useState(null)
 
   const handleCalculate = () => {
     let numericPrice = parseFloat(price);
@@ -30,11 +30,12 @@ const Calculator = () => {
 
     // Calculate the additional cost based on weight
     let additionalCost = Math.ceil(numericWeight / 1000) * 200;
+    setDeliveryCharge(additionalCost)
     let percentage = numericPrice / 100 * 25;
+    let finalPercentage = percentage * 1.65;
 
     // charges
-    let charges = percentage + additionalCost * 1.65;
-    setCharge(charges.toFixed(0))
+    setCharge(finalPercentage.toFixed(0))
 
     if (numericPrice < 1500) {
       const mainCalc = numericPrice + percentage + 100;
@@ -47,7 +48,7 @@ const Calculator = () => {
     }
 
     // Add the additional cost based on weight
-    const finalPrice = prodPrice + charges + DeliveryCharge;
+    const finalPrice = prodPrice + finalPercentage + additionalCost;
     setResult(finalPrice.toFixed(0));
     setIsHidden("block")
 
