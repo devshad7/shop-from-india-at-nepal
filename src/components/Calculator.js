@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "./ui/button"
 import { useState } from "react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion"
+import { Label } from "./ui/label"
 
 const Calculator = () => {
 
@@ -48,7 +49,7 @@ const Calculator = () => {
     // }
 
     // Add the additional cost based on weight
-    
+
     if (numericPrice < 1500) {
       const finalPrice = prodPrice + finalPercentage + additionalCost;
       const addP = finalPrice + 165;
@@ -70,8 +71,14 @@ const Calculator = () => {
         <div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-3">
-              <Input type="number" placeholder="Enter product price in INR" value={price} onChange={(e) => setPrice(e.target.value)} />
-              <Input type="number" placeholder="Enter product weight in gram" className="md:w-72 w-72" value={weight} onChange={(e) => setWeight(e.target.value)} />
+              <div className="">
+                <Label htmlFor="price" className={'text-slate-600 text-xs'}>Price (INR)</Label>
+                <Input type="number" id="price" placeholder="Enter product price in INR" value={price} onChange={(e) => setPrice(e.target.value)} />
+              </div>
+              <div className="">
+                <Label htmlFor="weight" className={'text-slate-600 text-xs'}>Wight (g)</Label>
+                <Input type="number" id="weight" placeholder="Enter product weight in gram" className="md:w-72 w-72" value={weight} onChange={(e) => setWeight(e.target.value)} />
+              </div>
             </div>
             <div className={isHidden}>
               <div className="relative bg-green-100 px-5 py-3">
