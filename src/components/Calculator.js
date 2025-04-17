@@ -79,7 +79,7 @@ const Calculator = () => {
               </div>
               <div className="">
                 <Label htmlFor="weight" className={'text-slate-600 text-xs'}>Wight (g)</Label>
-                <Input type="number" id="weight" placeholder="Enter product weight in gram" className="md:w-full w-72" value={weight} onChange={(e) => setWeight(e.target.value)} />
+                <Input type="number" id="weight" placeholder="Enter product weight in gram" className="md:w-80 w-80" value={weight} onChange={(e) => setWeight(e.target.value)} />
               </div>
             </div>
             <div className={isHidden}>
