@@ -8,7 +8,7 @@ const CalcAlert = () => {
             <AlertCircle className="h-4 w-4" />
             <AlertTitle>Note</AlertTitle>
             <AlertDescription>
-                No more order from Meesho
+                This calculator valid only for cosmetic, shoes and cloth
             </AlertDescription>
         </Alert>
     )
