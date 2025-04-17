@@ -5,6 +5,7 @@ import { Button } from "./ui/button"
 import { useState } from "react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion"
 import { Label } from "./ui/label"
+import CalcAlert from "./CalcAlert"
 
 const Calculator = () => {
 
@@ -70,6 +71,7 @@ const Calculator = () => {
       <div className="h-[88vh] md:h-[100vh] w-[100%] flex justify-center items-center">
         <div>
           <div className="flex flex-col gap-4">
+            <CalcAlert />
             <div className="flex flex-col gap-3">
               <div className="">
                 <Label htmlFor="price" className={'text-slate-600 text-xs'}>Price (INR)</Label>
@@ -77,7 +79,7 @@ const Calculator = () => {
               </div>
               <div className="">
                 <Label htmlFor="weight" className={'text-slate-600 text-xs'}>Wight (g)</Label>
-                <Input type="number" id="weight" placeholder="Enter product weight in gram" className="md:w-72 w-72" value={weight} onChange={(e) => setWeight(e.target.value)} />
+                <Input type="number" id="weight" placeholder="Enter product weight in gram" className="md:w-full w-72" value={weight} onChange={(e) => setWeight(e.target.value)} />
               </div>
             </div>
             <div className={isHidden}>
