@@ -89,19 +89,20 @@ const Calculator = () => {
             </div>
             <Button onClick={handleCalculate}>Calculate</Button>
             <div className={isHidden}>
-              <Accordion type="single" collapsible className="w-full">
+              <Accordion type="single" collapsible className="w-full pb-2">
                 <AccordionItem value="item-1">
                   <AccordionTrigger>See price breakdown</AccordionTrigger>
                   <AccordionContent>
                     <ul>
                       <li>• Product price: {productPrice}</li>
-                      <li>• Import & Service charge: {charge}</li>
+                      <li>• Import charge: {charge}</li>
                       <li>• Delivery charge: {DeliveryCharge}</li>
                       <li>• <strong>Total price: </strong>{result + " "}<strong>NPR</strong></li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
+              {/* <span><strong className="underline">Note: </strong>blabla</span> */}
             </div>
           </div>
         </div>
