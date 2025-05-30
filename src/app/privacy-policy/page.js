@@ -8,8 +8,10 @@ export const metadata = {
 function page() {
   return (
     <>
-    <Navbar />
-    <PrivacyPolicy />
+      <Navbar />
+      <div className="relative top-16">
+        <PrivacyPolicy />
+      </div>
     </>
   )
 }

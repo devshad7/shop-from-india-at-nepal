@@ -3,20 +3,14 @@ import React from 'react'
 const TermAndConditions = () => {
     return (
         <>
-            <div className="px-4 py-6 md:px-14">
+            <div className="px-4 py-6 md:px-14 max-w-7xl mx-auto">
                 <h1 className="text-2xl font-bold">Term and Conditions</h1>
-                <div className="pt-5">
-                    <h2 className="text-xl font-semibold">1. Video Recording Requirement</h2>
-                    <p className='ml-5 pt-1'>Customers are required to record a clear, continuous video while opening their parcel. This serves as crucial evidence in the event of missing items or other issues.</p>
-                </div>
-                <div className="pt-5">
-                    <h2 className="text-xl font-semibold">2. Policy on Missing Items</h2>
-                    <p className='ml-5 pt-1'>If you do not provide a video of the unboxing process, we will not be able to process any claims or complaints regarding missing or damaged items.</p>
-                </div>
-                <div className="pt-5">
-                    <h2 className="text-xl font-semibold">3. Claim Process</h2>
-                    <p className='ml-5 pt-1'>In the event of any discrepancy, the recorded video must be submitted within 48 hours of receiving the parcel. Claims without video evidence will not be entertained.</p>
-                </div>
+                <ul className='list-decimal px-5 space-y-2 mt-5'>
+                    <li>We place orders strictly based on the product links provided by the customer. If the website or seller turns out to be a scam or fraudulent, we are not responsible for any loss. Since such orders are prepaid, we are not obligated to provide a refund.</li>
+                    <li>However, if the order was placed as Cash on Delivery (COD), we take full responsibility and will provide a 100% refund in case of any fraud or scam.</li>
+                    <li>Delivery time is not fixed. As this is an international order, delays may occur due to customs, courier issues, or website processing times. We are not responsible for any inconvenience caused due to such delays.</li>
+                    <li>By placing an order with us, the customer agrees to these terms and understands the associated risks.</li>
+                </ul>
             </div>
         </>
     )
