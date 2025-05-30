@@ -102,7 +102,7 @@ const Calculator = () => {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
-              <div className="md:w-80 w-80 text-sm"><strong className="underline">Note: </strong>Extra charges like delivery or packaging from Indian sites (e.g., Amazon, Flipkart) are not included in this calculator and will be added separately.</div>
+              <div className="md:w-80 w-80 text-sm"><strong className="underline">Note: </strong>Website delivery charges, if any, will be added separately</div>
             </div>
           </div>
         </div>
