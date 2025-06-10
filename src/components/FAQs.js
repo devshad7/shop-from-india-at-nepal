@@ -20,7 +20,7 @@ const FAQs = () => {
                                 <AccordionContent>
                                     <strong>We Accept</strong>
                                     <ul>
-                                        <li>• E-seva</li>
+                                        <li>• E-sewa</li>
                                         <li>• Khalti</li>
                                         <li>• Kumari Bank</li>
                                         <li>• Siddhartha Bank</li>
