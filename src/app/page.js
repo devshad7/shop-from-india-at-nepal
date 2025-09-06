@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="relative top-16">
+      <div className="relative top-24">
         <Hero />
         <Brands />
         <About />

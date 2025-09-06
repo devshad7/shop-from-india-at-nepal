@@ -4,10 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import Image from "next/image"
 import { FaWhatsapp } from "react-icons/fa"
+import AnnouncementBar from "./ui/announcement-bar"
 
 const Navbar = () => {
     return (
         <div className="flex w-full flex-col fixed z-50">
+            <AnnouncementBar />
             <header className="flex h-16 items-center gap-4 border-b bg-background px-4 md:px-14">
                 <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
                     <Link

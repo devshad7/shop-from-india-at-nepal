@@ -79,5 +79,6 @@
 }
 
 ::-webkit-scrollbar {
-  background: transparent;
+  background: none;
+  width: 0;
 }
